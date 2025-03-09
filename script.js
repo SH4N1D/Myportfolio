@@ -3,7 +3,7 @@
 // Dark Mode Toggle
 const themeToggle = document.querySelector('.theme-toggle');
 const body = document.body;
-
+ 
 themeToggle.addEventListener('click', () => {
   body.classList.toggle('dark-mode');
   const isDarkMode = body.classList.contains('dark-mode');
