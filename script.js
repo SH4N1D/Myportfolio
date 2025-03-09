@@ -1,5 +1,5 @@
 // JavaScript for Dynamic Features
-
+ 
 // Dark Mode Toggle
 const themeToggle = document.querySelector('.theme-toggle');
 const body = document.body;
