@@ -4,7 +4,7 @@
 const themeToggle = document.querySelector('.theme-toggle');
 const body = document.body;
  
-themeToggle.addEventListener('click', () => {
+themeToggle.addEventListener('click', () => { 
   body.classList.toggle('dark-mode');
   const isDarkMode = body.classList.contains('dark-mode');
   themeToggle.innerHTML = isDarkMode ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
